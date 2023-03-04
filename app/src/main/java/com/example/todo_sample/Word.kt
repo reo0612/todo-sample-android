@@ -41,8 +41,6 @@ Entityであることを明確にするため、@Entityアノテーションを�
 
  */
 
-
-
 @Entity(tableName = "Word_Table")
 data class Word(@PrimaryKey @ColumnInfo(name = "word") val word: String)
 
